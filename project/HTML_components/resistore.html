@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor</title>
+    <style>
+        @media screen and (min-width: 1401px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 2.8rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 2.0rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }
+        @media screen and (max-width: 1400px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 2.5rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 1.8rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }
+        @media screen and (max-width: 1300px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 2.0rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 1.5rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }
+        @media screen and (max-width: 1100px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 1.8rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 1.3rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }
+        @media screen and (max-width: 950px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 1.6rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 1.2rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        } 
+        @media screen and (max-width: 850px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                width: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 1.2rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 0.9rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }     
+        @media screen and (max-width: 849px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 100px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 15%;
+            }
+            h1{
+                font-size: 1.6rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 1.2rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }
+        @media screen and (max-width: 549px) {
+            .card{
+                background-color: rgba(182, 241, 215, 0.778);;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: start;
+                margin: 2 auto;
+                padding-top: 12%;
+                padding-bottom: 12%;
+            }
+            img{
+                margin-left: 40px;
+                border-radius: 1rem;
+            }
+            .container{
+                margin-left: 8%;
+            }
+            h1{
+                font-size: 1.4rem;
+                margin-top: -1%;
+                margin-bottom: -1%;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h4{
+                font-size: 1.0rem;
+                font-weight: initial;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .description{
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+                align-items: center;
+                margin-top: -5%;
+                margin-bottom: -5%;
+            }
+        }       
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="resistore.jpeg" alt="resistore" style="width:45%; margin-bottom:2rem; margin-top:2rem">
+        <div class="container">
+          <h1><b>Resistor</b></h1>
+            <div class="intro">
+                <h4>The graphical symbol for an electrical resistor is:</h4>
+                <img src="resistore2.png" alt="resistore" style="width:15%">
+            </div>
+            <div class="description">
+                <h4>The generating function is <b>f(v,i,t)=v−Ri </b><br>Its constitutive relation is: <b>v(t)=Ri(t) i(t)=Gv(t)</b></br></h4>
+            </div>
+            <div class="description">
+                <h4>Where the parameter R is called the resistance of the resistor and is measured in Ohms (Ω)</h4>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
